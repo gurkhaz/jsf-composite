@@ -19,7 +19,7 @@
             loginButtonText="#{msgs.loginButtonText}">
 
          <f:validateLength minimum="4" for="nameInput"/>
-       <!--   <f:validator validatorId="com.lab.waa.PasswordValidator" for="passwordInput"/> -->
+         <f:validator validatorId="com.lab.waa.Password" for="passwordInput"/>
          <f:actionListener type="com.lab.waa.LoginActionListener" for="loginButton"/>
 
          <f:facet name="heading" styleClass="header">

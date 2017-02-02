@@ -7,7 +7,7 @@ public class Registrar {
 
    private static List<User> registeredUsers = new ArrayList<User>();
    static {
-      registeredUsers.add(new User("Hiro", "secret"));
+      registeredUsers.add(new User("sanjaya", "shrestha"));
    }
 
    public static void register(String name, String password) {
